@@ -22,7 +22,7 @@
   <section class="skills container fade-in">
     <h2>Skills</h2>
     <ul>
-      <li>java</li>
+      <li>Java (Basic)</li>
       <li>Python</li>
       <li>HTML, CSS, JavaScript</li>
       <li>Machine Learning</li>
@@ -65,22 +65,11 @@
     <p>Phone: <a href="tel:+918822810916">+91 88228 10916</a></p>
     <p><a href="https://www.linkedin.com/in/abhishek-das-68b674298/" target="_blank">LinkedIn</a></p>
     <p><a href="https://github.com/Abhish3k-1" target="_blank">GitHub</a></p>
-    <button onclick="downloadResume()" class="resume-btn">Download Resume</button>
+    <p><a href="Abhishek_Das_Resume.pdf" download class="resume-btn">📄 Download Resume</a></p>
   </section>
 
   <footer>
     <p>&copy; 2025 Abhishek Das</p>
   </footer>
-
-  <script>
-    function downloadResume() {
-      const link = document.createElement("a");
-      link.href = "Abhishek_Das_Resume.pdf";
-      link.download = "Abhishek_Das_Resume.pdf";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    }
-  </script>
 </body>
 </html>
